@@ -1,4 +1,6 @@
-
+.navbar {
+  padding: 1px 0px 1px 5px;
+}
 
 .floatleft {
     float:left;
@@ -15,6 +17,12 @@
 .about-title {
   font-family: 'Rasa', serif;
   font-weight: bolder;
-  font-size: 10px;
+  font-size: 200px;
   color: #CAC8C8;
+}
+
+.about-content {
+  font-family: 'Rasa', serif;
+  font-size: 20px;
+  color: #5F5F5F;
 }

@@ -15,8 +15,18 @@
   height:175px
 }
 
+.boardcontainer {
+  margin-left:1%;
+  margin-right:1%;
+}
 
-/*  flex stuff for Spring2018Shows*/
+.container {
+  margin-left:0px;
+  margin-right:0px;
+  width:100%;
+}
+
+/*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~flex stuff for Spring2018Shows*/
 * {
     box-sizing: border-box;
 }
@@ -64,7 +74,7 @@
         max-width: 100%;
     }
 }
-/*  flex stuff for Spring2018Shows*/
+/*  ~~~~~~~~~~~~~~~~~~~~~~~~flex stuff for Spring2018Shows*/
 
 
 
@@ -85,9 +95,12 @@
   margin-top: 20px;
 }
 
+/* Show Pages */
+
 .show-banner { 
   position: relative; 
   text-align: center; 
+}
 
 .show-title { 
   font-family: 'Rasa', serif;
@@ -97,14 +110,26 @@
   line-height: 80px;
   margin-top: 60px;
   position: absolute; 
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .show-time {
   font-family: 'Rasa', serif;
-  font-size: 60px;
+  font-size: 50px;
   color: #CAC8C8;
   line-height: 80px;
   margin-top: 60px;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
   
+
+.event-pic {
+  margin-top: 60px;
+  height: auto;
+}
   

@@ -2,6 +2,11 @@
   padding: 0.5rem 0px 0.5rem 1rem;
 }
 
+.nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .floatleft {
     float:left;
 }
@@ -11,19 +16,12 @@
 }
 
 .boardimg {
-  width:175px;
-  height:175px
+  width:200px;
+  height:200px
 }
 
 .boardcontainer {
-  margin-left:1%;
-  margin-right:1%;
-}
-
-.container {
-  margin-left:0px;
-  margin-right:0px;
-  width:100%;
+  padding:2%;
 }
 
 /*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~flex stuff for Spring2018Shows*/
@@ -91,11 +89,11 @@
   font-family: 'Rasa', serif;
   font-size: 20px;
   color: #5F5F5F;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   margin-top: 20px;
 }
 
-/* Show Pages */
+/* ~~~~ Show Pages ~~~~ */
 
 .show-banner { 
   position: relative; 
@@ -126,10 +124,16 @@
   position: absolute;
   transform: translate(-50%, -50%);
 }
+
+.card { 
+  margin-top: 30px;
   
 
+/* ~~~~ end Show Pages ~~~~ */
+
 .event-pic {
-  margin-top: 60px;
-  height: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+/*   height: 20px; */
 }
   

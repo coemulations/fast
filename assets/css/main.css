@@ -1,5 +1,5 @@
 .navbar {
-  padding: 1px 0px 1px 5px;
+  padding: 0.5rem 0px 0.5rem 1rem;
 }
 
 .floatleft {
@@ -10,19 +10,40 @@
     float:right;
 }
 
+.boardimg {
+  width:175px;
+  height:175px
+}
+
+.membersimg {
+}
 
 
 
 
-.about-title {
+.home-titles {
   font-family: 'Rasa', serif;
   font-weight: bolder;
-  font-size: 200px;
+  font-size: 100px;
   color: #CAC8C8;
+  line-height: 80px;
+  margin-top: 60px;
 }
 
 .about-content {
   font-family: 'Rasa', serif;
   font-size: 20px;
   color: #5F5F5F;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
+
+.show-title { 
+  font-family: 'Rasa', serif;
+  font-weight: bolder;
+  font-size: 100px;
+  color: #CAC8C8;
+  line-height: 80px;
+  margin-top: 60px;
+}
+  

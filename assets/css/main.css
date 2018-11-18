@@ -34,12 +34,12 @@
   width:100%;
 }
 
-.memberimg {
+.membersimg {
   width:200px;
   height:200px
 }
 
-.membercontainer {
+.memberscontainer {
   margin-left:1%;
   margin-right:1%;
   margin-top:1%;
@@ -48,10 +48,21 @@
   min-width:200px;
 }
 
-@media screen and (max-width: 800px) {
-    .boardcontainer {
-        left:25%;
-    }
+.membersdescription {
+  text-align:center;
+  width:100%;
+}
+
+@media screen and (max-width: 420px) {
+  .boardcontainer {
+  left:50%;
+  transform: translate(-50%,-0%);
+  }
+  
+  .memberscontainer {
+  left:50%;
+  transform: translate(-50%,-0%);
+  }
 }
 
 
@@ -107,10 +118,10 @@
 
 
 
-.home-titles {
+.home-titles h1 {
   font-family: 'Rasa', serif;
   font-weight: bolder;
-  font-size: 100px;
+  font-size: 4ewm;
   color: #CAC8C8;
   line-height: 80px;
   margin-top: 60px;
@@ -160,6 +171,32 @@
   margin-top: 40px;
   border: none;
 }
+
+.show-row > .col-lg-4 {
+  padding: 0 8px;
+}
+
+.show-row > .col-sm-6 {
+  padding: 0 8px;
+}
+
+.show-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.col-lg-4 {
+  float: left;
+  width: 33%;
+}
+
+.col-sm-6 {
+  float: left;
+  width: 33%;
+}
+
 
 /* The Modal (background) */
 .modal {

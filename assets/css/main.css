@@ -330,3 +330,39 @@ a:hover {
   color: #82D3F0;
   text-decoration: none;
 }
+
+
+
+/* ~~~~ footer ~~~~ */
+
+.fa {
+  padding: 8px;
+  font-size: 20px;
+  width: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: #C6C5C3;
+}
+
+.fa-google {
+  background: white;
+  color: #C6C5C3;
+}
+
+.fa-instagram {
+  background: white;
+  color: #C6C5C3;
+}
+
+
+/* ~~~~ end footer ~~~~ */

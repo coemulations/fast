@@ -364,5 +364,10 @@ a:hover {
   color: #C6C5C3;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 /* ~~~~ end footer ~~~~ */

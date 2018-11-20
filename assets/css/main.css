@@ -7,6 +7,11 @@
   padding-right: 5px;
 }
 
+.navbar {
+  font-family: 'Rasa', serif;
+  font-size: 20px;
+}
+
 .floatleft {
     float:left;
 }
@@ -367,6 +372,12 @@ a:hover {
 .flex-container {
   display: flex;
   justify-content: flex-end;
+}
+
+.footer-text {
+  color: white;
+  font-family: 'Rasa', serif;
+  font-size: 18px;
 }
 
 

@@ -120,7 +120,7 @@ body {
   background-color: #C6C5C3;
 }
 
-.footerdiv {
+.footer > div {
   position:relative;
   top:20%;
 }

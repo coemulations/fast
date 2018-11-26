@@ -127,10 +127,10 @@ body {
 
 @media (max-width: 770px) {
   .footer {
-    height:auto;
+    height:85px;
   }
   .footerdiv {
-    top:25%;
+    top:20%;
     left:15%;
   }
 }

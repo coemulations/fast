@@ -10,6 +10,13 @@
 .navbar {
   font-family: 'Rasa', serif;
   font-size: 20px;
+  opacity:0.95;
+}
+
+@media screen and (max-width: 770px) {
+  .navbar {
+    position:relative;
+  }
 }
 
 .floatleft {

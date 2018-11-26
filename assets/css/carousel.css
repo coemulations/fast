@@ -36,6 +36,12 @@ body {
   max-width:100%;
 }
 
+@media (max-width: 770px) {
+  .carousel-item > img {
+    max-width:auto;
+  }
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

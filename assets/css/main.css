@@ -13,6 +13,11 @@
   opacity:0.90;
 }
 
+.row {
+  margin-left:0px;
+  margin-right:0px;
+}
+
 @media screen and (max-width: 770px) {
   .navbar {
     position:relative;

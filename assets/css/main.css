@@ -10,7 +10,7 @@
 .navbar {
   font-family: 'Rasa', serif;
   font-size: 20px;
-  opacity:0.95;
+  opacity:0.90;
 }
 
 @media screen and (max-width: 770px) {

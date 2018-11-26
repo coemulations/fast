@@ -28,11 +28,11 @@
 }
 
 .boardimg {
+  width:200px;
+  height:200px;
   margin-bottom:10px;
-/*   max-width:200px; */
-  object-fit:contain;
-/*   height:200px; */
-/*   overflow:hidden; */
+  object-fit:cover;
+  object-position: 50% 20%;
 }
 
 .boardcontainer {

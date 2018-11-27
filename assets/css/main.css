@@ -41,7 +41,7 @@
 }
 
 .boardimg:hover {
-  opacity: .7
+  opacity: .1;
 }
 
 .boardcontainer {

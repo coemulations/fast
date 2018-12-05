@@ -10,6 +10,7 @@
     <meta name="keywords" content="FAST Berkeley Fashion Photos Models Design">
     
     <link rel="shortcut icon" href="assets/images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
     <title>FAST Berkeley</title>
@@ -76,7 +77,7 @@
               <div class="carousel-caption text-left">
                 <h1>Example headline.</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">See more</a></p>
+<!--                 <p><a class="btn btn-lg btn-primary" href="#" role="button">See more</a></p> -->
               </div>
             </div>
           </div>
@@ -85,9 +86,11 @@
       </div>
 
       
-      <div class="row"> 
+      <div id="pictureblock" class="row"> 
         <div class="column">
-          <img src="https://cdn.glitch.com/123110f9-110f-4349-b0fb-d663729aef81%2FAurora.jpg?1543192138953" style="width:100%">
+          <a href="hhttps://cdn.glitch.com/123110f9-110f-4349-b0fb-d663729aef81%2FAurora.jpg?1543192138953" data-toggle="lightbox" data-gallery="example-gallery">
+            <img src="https://cdn.glitch.com/123110f9-110f-4349-b0fb-d663729aef81%2FAurora.jpg?1543192138953" style="width:100%">
+          </a>
           <img src="https://cdn.glitch.com/123110f9-110f-4349-b0fb-d663729aef81%2FWoofer.jpg?1543192081457" style="width:100%">
           <img src="https://www.w3schools.com/w3images/falls2.jpg" style="width:100%">
           <img src="https://www.w3schools.com/w3images/paris.jpg" style="width:100%">
@@ -162,7 +165,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../assets/js/holder.min.js"></script>
+    <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+              event.preventDefault();
+              $(this).ekkoLightbox();
+          });
+    </script> 
   </body>
 </html>

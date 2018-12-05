@@ -31,7 +31,28 @@
 .floatright {
     float:right;
 }
-
+.img-wrap{
+  position: relative;
+}
+.img-description{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  background: white;
+/*   visibility: hidden; */
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.img-wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+  
 .boardimg {
   width:185px;
   height:185px;
@@ -40,9 +61,10 @@
   object-position: 50% 20%;
 }
 
-.boardimg:hover {
+/* .boardimg:hover {
   opacity: .1;
-}
+} */
+
 
 .boardcontainer {
   margin-left:1%;
@@ -342,23 +364,7 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img-wrap{
-  position: relative;
-}
-.img-description{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  top: 10px;
-  text-align: center;
-  visibility: hidden;
-  opacity: 0;
-}
-.img-wrap:hover .img_description {
-  visibility: visible;
-  opacity: 1;
-}
-  
+
 
 /* ~~~~ end Show Pages ~~~~ */
 

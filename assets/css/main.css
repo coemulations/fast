@@ -343,7 +343,20 @@ img.hover-shadow {
 }
 
 .img-wrap{
-  
+  position: relative;
+}
+.img-description{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+}
+.img-wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
 }
   
 

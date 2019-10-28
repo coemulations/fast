@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -41,6 +44,12 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/vendor.css" />
     <link rel="stylesheet" href="css/main.css" />
+    
+    <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+    
   </head>
   <body>
     <header>
@@ -334,7 +343,7 @@
               <div class="entry-thumb">
                 <a href="article.html" class="thumb-link">
                   <img
-                    src="images/thumbs/thumbnail.jpg"
+                    src="assets/images/icon.png"
                     alt="main article graphic"
                   />
                 </a>
@@ -354,11 +363,7 @@
                   </h1>
                 </div>
                 <div class="entry-excerpt">
-                  (Excerpt) Lorem ipsum Sed eiusmod esse aliqua sed incididunt
-                  aliqua incididunt mollit id et sit proident dolor nulla sed
-                  commodo est ad minim elit reprehenderit nisi officia aute
-                  incididunt velit sint in aliqua cillum in consequat consequat
-                  in culpa in anim.
+                  (Excerpt) Lorem ipsum.
                 </div>
               </div>
             </article>
@@ -409,13 +414,19 @@
             </div>
           </div>
         </div>
-        <!-- Java Script
-   ================================================== -->
-        <script src="js/jquery-2.1.3.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
       </footer>
     </main>
+    
+    
+    <div id="preloader">
+        <div id="loader"></div>
+      </div>
+
+      <!-- Java Script
+   ================================================== -->
+      <script src="js/jquery-2.1.3.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

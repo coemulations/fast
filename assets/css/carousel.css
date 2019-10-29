@@ -113,17 +113,14 @@ body {
 }
 .footer {
   position: absolute;
-  bottom: 0;
+  /*bottom: 0;*/
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 70px;
   background-color: #C6C5C3;
 }
 
-.footer > div {
-  position:relative;
-  top:20%;
-}
+
 
 @media (max-width: 770px) {
   .footer {

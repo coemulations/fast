@@ -151,7 +151,7 @@
 .column {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
-    max-width: 33%;
+    max-width: 50%; /* FIX WHEN CHANGING THE NUMBER OF ARTICLES!!! */
     padding: 0 4px;
 }
 

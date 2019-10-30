@@ -18,6 +18,12 @@
   margin-right:0px;
 }
 
+{
+  margin-left:20px;
+  margin-right:20px;
+  height: 25%;
+}
+
 @media screen and (max-width: 770px) {
   .navbar {
     position:relative;
@@ -441,6 +447,8 @@ a:hover {
 .entry {
 	margin-bottom: 40px;
   padding: 10px;
+  height-max: 25%;
+  
 }
 
 .entry-thumb,

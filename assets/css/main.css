@@ -925,6 +925,7 @@ img.pull-left {
 	max-width: 100%;
 }
 
-.blog-img {
-  align: center;
+.blog-img-p {
+  text-align: left;
+  margin-left: 60px;
 }

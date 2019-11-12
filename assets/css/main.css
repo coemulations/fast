@@ -928,4 +928,5 @@ img.pull-left {
 .blog-img-p {
   text-align: left;
   margin-left: 60px;
+  display: inline;
 }

@@ -928,5 +928,9 @@ img.pull-left {
 .blog-img-p {
   text-align: left;
   margin-left: 60px;
-  display: inline;
+}
+
+.photo-2-container {
+  display: inline-block;
+  width: 50%;
 }

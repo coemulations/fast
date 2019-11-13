@@ -926,8 +926,8 @@ img.pull-left {
 }
 
 .blog-img-p {
-  text-align: left;
-  margin-left: 60px;
+  text-align: center;
+
 }
 
 .photo-2-container {
@@ -936,6 +936,6 @@ img.pull-left {
 
 @media screen and (max-width: 420px) {
   .blog-img-p {
-    margin-left: 10px;
+    text-align: center:
   }
 }

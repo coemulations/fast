@@ -933,3 +933,9 @@ img.pull-left {
 .photo-2-container {
   display: inline-block;
 }
+
+@media screen and (max-width: 420px) {
+  .blog-img-p {
+    margin-left: 10px;
+  }
+}

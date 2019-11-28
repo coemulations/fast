@@ -966,7 +966,7 @@ img.pull-left {
 
 .blog-img-p {
   margin: auto;
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
@@ -991,5 +991,14 @@ img.pull-left {
 @media screen and (max-width: 420px) {
   .blog-img-p {
     text-align: center:
+    margins: auto;
+    vertical-align: center;
+
+  }
+  .blog-img {
+    margins: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 400px;
   }
 }

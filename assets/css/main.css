@@ -984,10 +984,6 @@ img.pull-left {
 
 }
 
-.photo-2-container {
-
-}
-
 @media screen and (max-width: 420px) {
   .blog-img-p {
     text-align: center:
@@ -997,8 +993,11 @@ img.pull-left {
   }
   .blog-img {
     margins: auto;
-    padding-left: 3px;
-    padding-right: 3px;
-    width: 400px;
+    padding: 3px;
+    width: 410px;
   }
+  #travel-img-desc {
+    visibility: hidden;
+  }
+
 }

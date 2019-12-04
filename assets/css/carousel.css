@@ -27,7 +27,8 @@ body {
   height: 100vh;
   background-color: #777;
 }
-.carousel-item > img {
+.carousel-item > img,
+.carousel-item > video {
   position: absolute;
   top: 0;
   left: 0;

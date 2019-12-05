@@ -706,6 +706,7 @@ a:hover {
   .footer-text {
     line-height: 1.5;
   }
+
   .entry-excerpt {
     font-size: 0.8rem;
     line-height: 2.7rem;
@@ -715,8 +716,9 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
-  .entry-title {
-    font-size: .6rem;
+
+  .entry-header .entry-title {
+    font-size: 1.5rem;
   }
 }
 
@@ -743,6 +745,10 @@ a:hover {
   height: 100%;
   }
 
+  .entry-header .entry-title {
+    font-size: 1.5rem;
+  }
+
   .entry-excerpt {
     font-size: 1.5rem;
     line-height: 2.7rem;
@@ -752,9 +758,7 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
-  .entry-title {
-    font-size: .6rem;
-  }
+
 }
 
 /*tablet*/
@@ -787,8 +791,9 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
-  .entry-title {
-    font-size: .6rem;
+
+  .entry-header .entry-title {
+    font-size: 1.5rem;
   }
 }
 

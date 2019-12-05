@@ -690,6 +690,7 @@ a:hover {
 /* responsive:
  * content wrap
  * ------------------------------------------------------------------- */
+/*tablet landscape*/
 @media only screen and (max-width: 1024px) {
   #content-wrap .row {
     max-width: 880px;
@@ -715,6 +716,7 @@ a:hover {
     overflow: hidden;
   }
 }
+
 
 @media only screen and (max-width: 960px) {
   #content-wrap .row {
@@ -748,6 +750,7 @@ a:hover {
   }
 }
 
+/*tablet*/
 @media only screen and (max-width: 768px) {
   #content-wrap {
     margin-top: 4.8rem;
@@ -779,7 +782,74 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 600px) {
+/*iphoneX*/
+@media only screen and (max-width: 812px) {
+  #content-wrap {
+    margin-top: 4.8rem;
+  }
+  #content-wrap .primary-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #content-wrap .entry-title,
+  #content-wrap .page-title {
+    font-size: 3rem;
+  }
+  .footer-text {
+    line-height: 1.5;
+  }
+  .entry-text {
+  padding: 1.8rem 2.8rem 3.6rem;
+  font-size: 0.8rem;
+  background-color: white;
+
+  .entry-excerpt {
+    font-size: 0.8rem;
+    line-height: 2.7rem;
+    color: #999999;
+    max-height: 700px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+
+/*iphone 6, 7, 8 plus*/
+@media only screen and (max-width: 736px) {
+  #content-wrap {
+    margin-top: 4.8rem;
+  }
+  #content-wrap .primary-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #content-wrap .entry-title,
+  #content-wrap .page-title {
+    font-size: 3rem;
+  }
+  .footer-text {
+    line-height: 1.5;
+  }
+  .entry-text {
+  padding: 1.8rem 2.8rem 3.6rem;
+  font-size: 0.8rem;
+  background-color: white;
+
+  .entry-excerpt {
+    font-size: 0.8rem;
+    line-height: 2.7rem;
+    color: #999999;
+    max-height: 700px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+
+/*iphone 6, 7, 8*/
+@media only screen and (max-width: 667px) {
   #content-wrap .entry-title,
   #content-wrap .page-title {
     font-size: 2.2rem;

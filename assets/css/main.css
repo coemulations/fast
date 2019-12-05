@@ -705,12 +705,20 @@ a:hover {
   .footer-text {
     line-height: 1.5;
   }
+  .entry-excerpt {
+    font-size: 0.8rem;
+    line-height: 2.7rem;
+    color: #999999;
+    max-height: 1000px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (max-width: 960px) {
   #content-wrap .row {
     max-width: 880px;
-
   }
   .footer-text {
     line-height: 1.5;
@@ -722,6 +730,21 @@ a:hover {
   #content-wrap .primary-content img {
     max-width: 100%;
     margin: 3rem 0 3rem 0;
+  }
+  .entry-text {
+  padding: 1.8rem 2.8rem 3.6rem;
+  font-size: 0.6rem;
+  background-color: white;
+  }
+
+  .entry-excerpt {
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    color: #999999;
+    max-height: 960px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 
@@ -740,6 +763,20 @@ a:hover {
   .footer-text {
     line-height: 1.5;
   }
+  .entry-text {
+  padding: 1.8rem 2.8rem 3.6rem;
+  font-size: 0.8rem;
+  background-color: white;
+
+  .entry-excerpt {
+    font-size: 0.8rem;
+    line-height: 2.7rem;
+    color: #999999;
+    max-height: 700px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -749,6 +786,20 @@ a:hover {
   }
   .footer-text {
     line-height: 1.5;
+  }
+  .entry-text {
+  padding: 1.8rem 2.8rem 3.6rem;
+  font-size: 0.4rem;
+  background-color: white;
+  }
+  .entry-excerpt {
+    font-size: 0.8rem;
+    line-height: 2.7rem;
+    color: #999999;
+    max-height: 600px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 

@@ -720,10 +720,11 @@ a:hover {
   .entry-header .entry-title {
     font-size: 1.5rem;
   }
-   .entry-header .entry-title,
+
   .entry-header .entry-meta {
     font-size: .8rem;
   }
+
   .entry-meta h2 {
     font-size: 1rem;
   }
@@ -755,7 +756,7 @@ a:hover {
   .entry-header .entry-title {
     font-size: 1.5rem;
   }
-   .entry-header .entry-title,
+
   .entry-header .entry-meta {
     font-size: .8rem;
   }
@@ -764,7 +765,7 @@ a:hover {
   }
 
   .entry-excerpt {
-    font-size: 1.5rem;
+    font-size: .8rem;
     line-height: 2.7rem;
     color: #999999;
     max-height: 960px;
@@ -810,10 +811,11 @@ a:hover {
   .entry-header .entry-title {
     font-size: 1.5rem;
   }
-   .entry-header .entry-title,
+
   .entry-header .entry-meta {
     font-size: .8rem;
   }
+
   .entry-meta h2 {
     font-size: 1rem;
   }
@@ -854,7 +856,7 @@ a:hover {
   .entry-header .entry-title {
     font-size: 1.5rem;
   }
-   .entry-header .entry-title,
+
   .entry-header .entry-meta {
     font-size: .8rem;
   }
@@ -886,7 +888,7 @@ a:hover {
   background-color: white;
 
   .entry-excerpt {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     line-height: 2.7rem;
     color: #999999;
     max-height: 500px;
@@ -898,14 +900,6 @@ a:hover {
     font-size: 1.5rem;
   }
 
-  .entry-header .entry-title,
-  .entry-header .entry-meta {
-    font-size: .8rem;
-  }
-  .entry-meta h2 {
-    font-size: 1rem;
-  }
-   .entry-header .entry-title,
   .entry-header .entry-meta {
     font-size: .8rem;
   }
@@ -943,6 +937,7 @@ a:hover {
   font-size: 0.4rem;
   background-color: white;
   }
+
   .entry-excerpt {
     font-size: 0.8rem;
     line-height: 2.7rem;
@@ -952,7 +947,10 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
-  .entry-header .entry-title,
+
+  .entry-header .entry-title {
+    font-size: 1.5rem;
+  }
   .entry-header .entry-meta {
     font-size: .8rem;
   }

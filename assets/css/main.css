@@ -715,6 +715,9 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
+  .entry-title {
+    font-size: .6rem;
+  }
 }
 
 
@@ -748,6 +751,9 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
+  .entry-title {
+    font-size: .6rem;
+  }
 }
 
 /*tablet*/
@@ -780,6 +786,9 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
+  .entry-title {
+    font-size: .6rem;
+  }
 }
 
 /*iphoneX*/
@@ -811,6 +820,10 @@ a:hover {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+  }
+
+  .entry-title {
+    font-size: .6rem;
   }
 }
 
@@ -845,6 +858,9 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
+  .entry-title {
+    font-size: .6rem;
+  }
 }
 
 
@@ -870,6 +886,9 @@ a:hover {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+  }
+  .entry-title {
+    font-size: .6rem;
   }
 }
 

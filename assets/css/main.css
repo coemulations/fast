@@ -720,6 +720,13 @@ a:hover {
   .entry-header .entry-title {
     font-size: 1.5rem;
   }
+   .entry-header .entry-title,
+  .entry-header .entry-meta {
+    font-size: .8rem;
+  }
+  .entry-meta h2 {
+    font-size: 1rem;
+  }
 }
 
 
@@ -748,6 +755,13 @@ a:hover {
   .entry-header .entry-title {
     font-size: 1.5rem;
   }
+   .entry-header .entry-title,
+  .entry-header .entry-meta {
+    font-size: .8rem;
+  }
+  .entry-meta h2 {
+    font-size: 1rem;
+  }
 
   .entry-excerpt {
     font-size: 1.5rem;
@@ -758,6 +772,7 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
   }
+
 
 }
 

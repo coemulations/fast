@@ -45,6 +45,12 @@ body {
   }
 }
 
+#blog-cover {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-img: url("https://cdn.glitch.com/83b027a9-76e3-45d8-ad5b-27081508c668%2Fimg.png?v=1572400174202");
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -78,6 +84,8 @@ body {
 }
 
 
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -93,7 +101,6 @@ body {
     font-size: 50px;
   }
 }
-
 
 
 @media (min-width: 62em) {

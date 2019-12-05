@@ -150,6 +150,8 @@ h6, .h06 {
 }
 p img {
 	margin: 0;
+	padding: 3px;
+	width: 100%;
 }
 p.lead {
 	font-family: 'roboto-light', sans-serif;

@@ -869,6 +869,12 @@ a:hover {
     overflow: hidden;
     background-img: url("https://cdn.glitch.com/83b027a9-76e3-45d8-ad5b-27081508c668%2Fimg.png?v=1572400174202");
     }
+
+  #blog-col .column{
+    width: 100%;
+    max-width: 100%;
+  }
+
 }
 
 
@@ -906,6 +912,11 @@ a:hover {
     overflow: hidden;
     background-img: url("https://cdn.glitch.com/83b027a9-76e3-45d8-ad5b-27081508c668%2Fimg.png?v=1572400174202");
     }
+
+  #blog-col .column{
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 /* ===================================================================

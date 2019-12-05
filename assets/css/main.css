@@ -850,10 +850,10 @@ a:hover {
   background-color: white;
 
   .entry-excerpt {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     line-height: 2.7rem;
     color: #999999;
-    max-height: 700px;
+    max-height: 500px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -882,7 +882,7 @@ a:hover {
     font-size: 0.8rem;
     line-height: 2.7rem;
     color: #999999;
-    max-height: 600px;
+    max-height: 500px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

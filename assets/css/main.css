@@ -861,6 +861,14 @@ a:hover {
   .entry-title {
     font-size: .6rem;
   }
+
+  #blog-cover {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-img: url("https://cdn.glitch.com/83b027a9-76e3-45d8-ad5b-27081508c668%2Fimg.png?v=1572400174202");
+    }
 }
 
 
@@ -890,6 +898,14 @@ a:hover {
   .entry-title {
     font-size: .6rem;
   }
+
+  #blog-cover {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-img: url("https://cdn.glitch.com/83b027a9-76e3-45d8-ad5b-27081508c668%2Fimg.png?v=1572400174202");
+    }
 }
 
 /* ===================================================================

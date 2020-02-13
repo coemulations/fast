@@ -407,6 +407,7 @@ a:hover {
 
 /* ~~~~ footer ~~~~ */
 
+
 .fa {
   padding: 8px;
   font-size: 20px;
@@ -1196,6 +1197,7 @@ img.pull-left {
     max-height: 450px;
     height: 100%;
     display: inline-block;
+    
     /*margins: 0px;
     width: 100%;
     float: center;
